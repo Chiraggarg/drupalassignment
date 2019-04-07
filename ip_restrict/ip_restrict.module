@@ -1,0 +1,21 @@
+<?php
+/**
+ * @file
+ * Main module file of the ip_restrict module.
+ */
+
+/**
+ *  Implements hook_theme().
+ */
+function ip_restrict_theme($existing, $type, $theme, $path) {
+  return [
+    'ip_restrict_block' => [
+      'variables' => [
+        'image' => [],
+        'title' => [],
+        'desc' => []
+      ],
+      'template' => 'ip-restrict-block'
+    ],
+  ];
+}

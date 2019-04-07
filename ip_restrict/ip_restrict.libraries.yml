@@ -1,0 +1,4 @@
+tile_structure:
+  version: 1
+  css:
+    css/tile.css: {}

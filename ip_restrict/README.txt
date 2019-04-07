@@ -1,0 +1,1 @@
+This module is developed for creating a block that can be restricted on the basis of IP. This module provides a template structure for the same block with a tile structure.
